@@ -1,0 +1,61 @@
+#logo_empresa{
+	width: 110px;
+  	margin: -16px auto -28px;
+  	display: block;
+}
+.content_login{
+	display: block;
+	margin: 5px auto;
+	width: 411px;
+}
+
+#content_imagen_login{
+	background: rgb(195, 15, 49);
+	margin-bottom: 14px;
+}
+
+#titulo_login{
+	color: rgb(195, 15, 49);
+}
+#subtitulo_login{
+  	font-size: 18px;
+  	margin-bottom: 12px;
+  	margin-top: -8px;
+  	color: rgb(77, 77, 77);
+  	font-weight: 300;
+}
+#titulo_login_content{
+	text-align: center;
+	font-size: 26px;
+	color: white;
+	margin-bottom: -18px;
+}
+/*
+#img_login{
+	width: 96px;
+	height: 96px;
+	margin: 25px auto 15px;
+	display: block;
+	border-radius: 50%;
+}*/
+
+#img_login{
+	width: 96px;
+  	height: 96px;
+  	margin: 31px auto -41px;
+  	display: block;
+  	border-radius: 147%;
+  	position: relative;
+  	border: 4px solid #C30F31;
+}
+#btn_login{
+	margin: 0 auto;
+  	display: block;
+  	width: 369px;
+  	text-transform: inherit;
+  	background: rgb(177, 198, 48);
+}
+
+body{
+	background: rgb(249, 249, 249);
+}
