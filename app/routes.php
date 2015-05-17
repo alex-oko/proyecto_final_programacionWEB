@@ -12,6 +12,19 @@
 */
 
 Route::get('/', function()
-{
+{	
+	/*$user= new User;
+	$user->name="Alexis31";
+	$user->email="alex-oko2@hotmail.com";
+	$user->password = Hash::make('123');
+	$user->save();*/
 	return View::make('login');
+});
+
+/*ruta hacia un controlador*/
+Route::controller('check','Login');
+
+//destruye el evento y sale de la app o deslogearnos
+Route::get('salir', function(){
+	Auth::logout();
 });

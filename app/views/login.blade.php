@@ -11,23 +11,25 @@
 				<p id="titulo_login_content">Iniciar sesión</p>
 				<img src="img/avatar.png" id="img_login" alt="">
 			</div>
-			<div class="col s12 m12 l12" style="margin-top: 20px; margin-bottom: 20px;">
-				<div class="col s12 m12 l12">
-					<div class="input-field col s12">
-		          		<i class="mdi-communication-email prefix"></i>
-		          		<input id="email" type="text" class="validate">
-		          		<label for="email">Email</label>
-		        	</div>
-		        	<div class="input-field col s12">
-		          		<i class="mdi-action-lock prefix"></i>
-		          		<input id="password" type="password" class="validate">
-          				<label for="password">Password</label>
-		        	</div>
+			<form class="login" action="check/user" method="POST">
+				<div class="col s12 m12 l12" style="margin-top: 20px; margin-bottom: 20px;">
+					<div class="col s12 m12 l12">
+						<div class="input-field col s12">
+			          		<i class="mdi-communication-email prefix"></i>
+			          		<input id="email" name="email" type="text" class="validate">
+			          		<label for="email">Email</label>
+			        	</div>
+			        	<div class="input-field col s12">
+			          		<i class="mdi-action-lock prefix"></i>
+			          		<input id="pass" name="pass" type="password" class="validate">
+	          				<label for="password">Password</label>
+			        	</div>
+					</div>
 				</div>
-			</div>
-			<div class="col s12 m12 l12">
-				<button class="btn waves-effect waves-light" id="btn_login" type="submit" name="action">Entrar</button>
-			</div>
+				<div class="col s12 m12 l12">
+					<button class="btn waves-effect waves-light" id="btn_login" type="submit" name="action">Entrar</button>
+				</div>
+			</form>
 		</div>
 	</div>
 @stop
